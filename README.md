@@ -8,9 +8,9 @@ The flask app should be located in module `app`.
 As the app is served with uwsgi protocol, a reserved proxy server is required.
 
 ## Usage
-    ```
-    docker run --name <server_name> -v <path_of_flask_app>:/opt/flask -d billlee/uwsgi-flask-devel
-    ```
+```
+docker run --name <server_name> -v <path_of_flask_app>:/opt/flask -d billlee/uwsgi-flask-devel
+```
 
 ## Tips
 
